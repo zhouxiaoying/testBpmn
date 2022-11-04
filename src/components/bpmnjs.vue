@@ -161,6 +161,7 @@ export default {
 .entry.bpmn-icon-data-store,
 .entry.bpmn-icon-participant,
 .entry.bpmn-icon-group,
+.entry.bpmn-icon-task,
 .entry.bpmn-icon-intermediate-event-none
 {
     display: none;
