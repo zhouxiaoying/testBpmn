@@ -30,7 +30,7 @@
 // import vue2aceEditor from './components/vue2aceEditor.vue'
 // import echartTest from './components/echartsTest.vue'
 
-import bpmnJs from './components/bpmnjs.vue'
+import bpmnJs from './components/bpmnJs.vue'
 
 
 export default {

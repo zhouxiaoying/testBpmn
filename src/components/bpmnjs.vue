@@ -140,6 +140,10 @@ export default {
 
   @import './bpmncss/bpmn.css';
 
+  .djs-palette.two-column.open {
+    width: 120px;
+}
+
 
 .containers {
   position: absolute;
@@ -174,5 +178,46 @@ export default {
 }
 .entry.bpmn-icon-task{
     color: #e9bb12;
+}
+.djs-palette-entries .entry.bpmn-icon-hand-tool:after {
+    font-size: 12px;
+    content: "抓手工具";
+    position: absolute;
+    left: 35px;
+    top: 0;
+}
+.djs-palette-entries .entry.bpmn-icon-lasso-tool:after {
+    font-size: 12px;
+    content: "套索工具";
+    position: absolute;
+    left: 35px;
+    top: 0;
+}
+.djs-palette-entries .entry.icon-custom.lindaidai-task:after {
+    font-size: 12px;
+    content: "查询余额";
+    position: absolute;
+    left: 35px;
+    top: 0;
+}
+.djs-palette-entries .entry.icon-custom.chrome-task:after {
+    font-size: 12px;
+    content: "打开浏览器";
+    position: absolute;
+    left: 35px;
+    top: 0;
+}
+.djs-palette .entry, .djs-palette .djs-palette-toggle {
+    width: 96px;
+    height: 46px;
+    line-height: 46px;
+    cursor: default;
+}
+.djs-palette .entry {
+    float: left;
+    position: relative;
+}
+.djs-palette .entry{
+    text-align: left;
 }
 </style>

@@ -9,22 +9,38 @@
     background-position: center;
 }
 
-.icon-custom.lindaidai-task { /* 加上背景图 */
+.djs-palette-entries .icon-custom.lindaidai-task::before { /* 加上背景图 */
+    content: url('./img/robot_small.jpg');
+    width: 30px;
+    height: 30px;
     /* background-image: url('https://hexo-blog-1256114407.cos.ap-shenzhen-fsi.myqcloud.com/rules.png'); */
-    background-image: url('./img/robot.jpeg');
+    /* background-image: url('./img/robot.jpeg'); */
+}
+.djs-context-pad.open .icon-custom.lindaidai-task::before { /* 加上背景图 */
+    content: url('./img/robot_ssmall.jpg');
+    width: 22px;
+    height: 22px;
+    /* background-image: url('https://hexo-blog-1256114407.cos.ap-shenzhen-fsi.myqcloud.com/rules.png'); */
+    /* background-image: url('./img/robot.jpeg'); */
 }
 /* 自定义 contextPad 的样式 */
 .djs-context-pad .lindaidai-task.entry:hover {
     background: url('./img/robot.jpeg') center no-repeat!important;
     background-size: cover!important;
 }
-.icon-custom.chrome-task { /* 加上背景图 */
-    /* background-image: url('https://hexo-blog-1256114407.cos.ap-shenzhen-fsi.myqcloud.com/rules.png'); */
-    background-image: url('./img/chromeimg.jpeg');
+.djs-palette-entries .icon-custom.chrome-task::before { /* 加上背景图 */
+    content: url('./img/chrome_small.jpg');
+    width: 30px;
+    height: 30px;
+}
+.djs-context-pad.open .icon-custom.chrome-task::before { /* 加上背景图 */
+    content: url('./img/chrome_ssmall.jpg');
+    width: 22px;
+    height: 22px;
 }
 /* 自定义 contextPad 的样式 */
 .djs-context-pad .chrome-task.entry:hover {
-    background: url('./img/chromeimg.jpeg') center no-repeat!important;
+    background: url('./img/chrome.png') center no-repeat!important;
     background-size: cover!important;
 }
     

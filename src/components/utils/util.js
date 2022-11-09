@@ -1,7 +1,7 @@
 // util.js
 //加载图片
-const robot = require('@/components/bpmncss/img/robot.jpeg')
-const chrome = require('@/components/bpmncss/img/chromeimg.jpeg')
+const robot = require('@/components/bpmncss/img/robot.jpg')
+const chrome = require('@/components/bpmncss/img/chrome.png')
 const customElements = ['bpmn:Task','bpmn:UserTask'] // 自定义元素的类型
 const customConfig = { // 自定义元素的配置(后面会用到)
     'bpmn:Task': {
