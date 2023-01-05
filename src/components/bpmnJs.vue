@@ -142,6 +142,7 @@ export default {
 
   .djs-palette.two-column.open {
     width: 120px;
+    padding: 0 10px;
 }
 
 

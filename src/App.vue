@@ -19,7 +19,9 @@
     <!-- <SideBar /> -->
     <!-- <vue2aceEditor /> -->
     <!-- <echartTest /> -->
-    <bpmnJs />
+    <!-- <bpmnJs /> -->
+
+    <dragable />
   </div>
 </template>
 
@@ -30,7 +32,9 @@
 // import vue2aceEditor from './components/vue2aceEditor.vue'
 // import echartTest from './components/echartsTest.vue'
 
-import bpmnJs from './components/bpmnJs.vue'
+import dragable from './components/dragable.vue'
+
+// import bpmnJs from './components/bpmnJs.vue'
 
 
 export default {
@@ -40,7 +44,8 @@ export default {
     // SideBar,
     // vue2aceEditor,
     // echartTest
-    bpmnJs
+    dragable,
+    // bpmnJs
   },
   data(){
     return{

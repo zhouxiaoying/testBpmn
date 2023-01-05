@@ -18,6 +18,7 @@
     "echarts": "^5.3.3",
     "element-ui": "^2.15.9",
     "vue": "2.6.12",
+    "vuedraggable": "^2.24.3",
     "vxe-table": "^4.3.2",
     "xe-utils": "^3.5.6"
   },
